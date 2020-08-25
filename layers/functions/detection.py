@@ -1,11 +1,9 @@
-import torch
-import torch.nn.functional as F
-from ..box_utils import decode, jaccard, index2d
-from utils import timer
-
-from data import cfg, mask_type
-
 import numpy as np
+import torch
+
+from data import cfg
+from utils import timer
+from ..box_utils import decode, jaccard
 
 
 class Detect(object):

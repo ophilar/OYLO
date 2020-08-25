@@ -1,11 +1,9 @@
 """ This script transforms and saves bbox coordinates into a pickle object for easy loading. """
 
 
+import json
 import os.path as osp
-import json, pickle
-import sys
-
-import numpy as np
+import pickle
 
 COCO_ROOT = osp.join('.', 'data/coco/')
 

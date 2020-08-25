@@ -1,12 +1,11 @@
-import os
-import json
-import time
-import sys
-
-from typing import Union
 import datetime
-
+import json
+import os
+import sys
+import time
 from collections import defaultdict
+from typing import Union
+
 import matplotlib.pyplot as plt
 import numpy as np
 

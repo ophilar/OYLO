@@ -1,4 +1,5 @@
-import re, sys, os
+import sys
+
 import matplotlib.pyplot as plt
 from matplotlib._color_data import XKCD_COLORS
 

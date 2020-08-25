@@ -5,9 +5,7 @@ clusters them for each convout resolution on which they're used.
 Run this script from the Yolact root directory.
 """
 
-import os.path as osp
-import json, pickle
-import sys
+import pickle
 
 import numpy as np
 import sklearn.cluster as cluster

@@ -5,15 +5,11 @@ clusters them for each convout resolution on which they're used.
 Run this script from the Yolact root directory.
 """
 
-import os.path as osp
-import json, pickle
-import sys
-from math import sqrt
+import pickle
 from itertools import product
-import torch
-import random
 
 import numpy as np
+import torch
 
 dump_file = 'weights/bboxes.pkl'
 aug_file  = 'weights/bboxes_aug.pkl'

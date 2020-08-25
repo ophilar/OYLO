@@ -7,9 +7,7 @@ Run this script from the Yolact root directory.
 """
 
 import pickle
-import random
 from itertools import product
-from math import sqrt
 
 import numpy as np
 import torch

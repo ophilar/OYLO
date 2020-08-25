@@ -1,10 +1,13 @@
-import torch
 import torch.nn as nn
-import os
 import math
+import os
 from collections import deque
 from pathlib import Path
+
+import torch.nn as nn
+
 from layers.interpolate import InterpolateModule
+
 
 class MovingAverage():
     """ Keeps an average window of the specified number of items. """

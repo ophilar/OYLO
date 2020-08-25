@@ -1,10 +1,11 @@
-import torch
-from torchvision import transforms
+import types
+from math import sqrt
+
 import cv2
 import numpy as np
-import types
+import torch
 from numpy import random
-from math import sqrt
+from torchvision import transforms
 
 from data import cfg, MEANS, STD
 
